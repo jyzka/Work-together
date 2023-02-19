@@ -1,0 +1,43 @@
+:root{
+    --main-color: #00acee;
+    --bg-logo: #126282;
+    --bg-color:white;
+}
+nav{
+    display: flex;
+    justify-self: start;
+    background-color:  var(--main-color);
+    margin: 0px;
+    padding: 0px 100% 0px 0px;
+    
+ }
+ .b4-button-normal-logo{
+    background-color: var(--bg-logo);
+ }
+ i{
+     padding: 20px;
+    color: white;
+    margin: auto;
+  
+    
+ }
+ i:after{
+    color: black;
+ }
+ a:hover{
+    background-color: grey;
+ }
+ .fa-house::before{
+    content: "\f015";
+ }
+ *, *::after, *::before {
+    box-sizing: inherit;
+ }
+ a{display: flex;
+align-items: center;
+text-decoration: none;
+color: white;
+font-size: 18px!important;
+padding:0px 8px 0px 8px;
+
+}
