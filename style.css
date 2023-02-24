@@ -1,3 +1,9 @@
+
+      .logo {
+          float: left;
+          width: 25%;
+  
+      }    
 :root{
     --main-color: #00acee;
     --bg-logo: #126282;
@@ -54,10 +60,21 @@ padding:0px 8px 0px 8px;
 }
 /* other */
 .container-main {
-   display: flex;
+   
+}
+.middle-boxes-box1{
+   position:relative;
+   left:50%;
+   bottom:40%;
+   
+
+
+
+}
+
    
   
-}
+
 /* left container style only */
 img{
    width: 100px;
@@ -72,11 +89,12 @@ img{
    align-items: center;
    box-shadow: var(--box-shadow);
    border-radius: var(--border-radius);
-   margin-top: 20px;
+   margin-top: 0px;
 
 }
 .container-left-box{
-   float: left;
+   position:absolute;
+   
   
 }
 /* middle container only */
