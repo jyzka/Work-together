@@ -73,28 +73,61 @@ padding:0px 8px 0px 8px;
 }
 
 /* alenabell css code */  
-.profilepic{
-   width:100px;
-   height:130px;
- 
- }
-  
-.profile-box{
+.left-boxes-box1{
+   border: 2px soid gray;
+   width: 350px;
    
+   
+   
+ }
+ .profile-pic{
+   border: 1px solid gray;
+   height: 300px;
+   text-align: center;
+   margin-top: 2px;
+   
+ }
+ .profilepic{
+   
+ }
+ .profile-text{
+   center: 
+ }
+ .groups{
+   border: 1px solid white;
+   margin-top: 10px;
+   height: 30px;
+   background-color: #00acee;
+   color: white;
+   padding-top:10px;
+   padding-left:4px;
+   width:350px;
 
-}
-.left-boxes-box3 {
-   width:100px;
-  height: 100px;
-  display:flex;
-  flex-shrink: 20px;
-}
-
-img {
-   width:100px;
-   height: 70px;
-}
+   
+ }
+ .groups:hover{
+   background-color: white;
+   color:black;
+ }
+ 
+ 
+ 
+ .profilepic{
+   width:
   
+ }
+ img {
+   width: 150px;
+   height: 100px;
+   margin-left:10px;
+   margin-bottom: 10px;
+   
+ }
+ .left-boxes-box4{
+   border: 1px solid gray;
+   width: 350px;
+   height: 100px;
+ }
 
  left container style only */
 a
