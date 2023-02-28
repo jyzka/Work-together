@@ -74,34 +74,43 @@ padding:0px 8px 0px 8px;
 
 /* alenabell css code */  
 .left-boxes-box1{
-   border: 2px soid gray;
+   box-shadow: 3px;
    width: 350px;
    
    
    
  }
  .profile-pic{
-   border: 1px solid gray;
-   height: 300px;
+   box-shadow:1px 1px 3px 3px rgb(212, 208, 208);
+   border-radius: 3%;
+   height: 350px;
+   width: 350px;
    text-align: center;
    margin-top: 2px;
-   
  }
- .profilepic{
-   
- }
+ hr{ 
+  display:block;
+  height: 1px;
+  border-top: 3px solid rgb(223, 217, 217);
+  border-left:0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  width: 300px;
+ }  
+ 
  .profile-text{
    center: 
  }
  .groups{
    border: 1px solid white;
-   margin-top: 10px;
+   margin-top: 15px;
    height: 30px;
    background-color: #00acee;
    color: white;
    padding-top:10px;
    padding-left:4px;
    width:350px;
+   padding-bottom: 0px;
 
    
  }
@@ -109,12 +118,26 @@ padding:0px 8px 0px 8px;
    background-color: white;
    color:black;
  }
- 
+ .myphotos{
+  box-shadow:3px 3px 3px lightgray;
+ }
+ .left-boxes-box2{
+  
+  width:355px;
+  padding-top:2px;
+  border-radius:3%;
+  padding-bottom: 0px;
+ }
  
  
  .profilepic{
-   width:
+   width:100px;
   
+ }
+ .left-boxes-boxes3{
+  box-shadow: 3px 3px 3px lightgray;
+  border-radius: 3%;
+  margin-top: 3px;
  }
  img {
    width: 150px;
@@ -125,10 +148,15 @@ padding:0px 8px 0px 8px;
  }
  .left-boxes-box4{
    border: 1px solid gray;
-   width: 350px;
+   border-radius:5%;
+   width: 200px;
    height: 100px;
  }
 
+ .container-left-box{
+  margin-top: 40px;
+  margin-left: 15%;
+ }
  left container style only */
 a
 
