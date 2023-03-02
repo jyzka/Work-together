@@ -77,17 +77,26 @@ bottom:40%;
 .left-boxes-box1{
 box-shadow: 3px;
 width: 350px;
+}
+.profile-pic i{
+  color:black;
+ }
+ .icons{
+  flex-direction: ;
+ }
 
-
-
+.profile-pic h2{
+  padding-top: 5px;
 }
 .profile-pic{
-box-shadow:1px 1px 3px 3px rgb(212, 208, 208);
-border-radius: 3%;
-height: 350px;
+box-shadow:1px 1px 3px 3px rgb(212, 208, 208); 
+height: 300px;
 width: 350px;
 text-align: center;
 margin-top: 2px;
+}
+.profile-text{
+  align-items: start;
 }
 hr{ 
 display:block;
@@ -100,7 +109,7 @@ width: 300px;
 }  
 
 .profile-text{
-center: 
+ 
 }
 .groups{
 border: 1px solid white;
@@ -110,21 +119,22 @@ background-color: #00acee;
 color: white;
 padding-top:10px;
 padding-left:4px;
-width:350px;
+width:345px;
 padding-bottom: 0px;
-
-
+}
+.list{
+  box-shadow:1px 2px 2px 2px rgb(212, 208, 208);
 }
 .groups:hover{
 background-color: white;
 color:black;
 }
-.myphotos{
-box-shadow:3px 3px 3px lightgray;
+.yourphotos{
+  box-shadow: 1px 3px 3px 3px lightgrey;
 }
 .left-boxes-box2{
 
-width:355px;
+width:350px;
 padding-top:2px;
 border-radius:3%;
 padding-bottom: 0px;
@@ -143,20 +153,58 @@ margin-top: 3px;
 img {
 width: 150px;
 height: 100px;
-margin-left:10px;
+margin-left:15px;
 margin-bottom: 10px;
-
+margin-top: 15px;
+}
+.interests{
+  box-shadow: 1px 1px 3px 3px lightgrey;
+  width: 350px;
+  height: 100px;
+}
+.interests p{
+  padding-top: 2px;
+  padding-left: 3px;
+  font-size: larger;
+  
+}
+span{
+  font-size:small;
 }
 .left-boxes-box4{
-border: 1px solid gray;
-border-radius:5%;
-width: 200px;
-height: 100px;
+border: 1px solid lightgrey;
+border-radius: 2%;
+width: 350px;
+height: 120px;
+margin-top: 20px;
+background-color: #dfe5e8;
 }
+.hey{
+ 
+  margin-left: 3px;
+}
+.left-boxes-box4 i{
+  color: black;
+ border: 1px solid grey;
+ background-color: rgb(126, 122, 122);
+ border-radius: 10%;
+ height: 2px;
+ width: 5px;
+ margin-left: 300px;
+ padding: center;
+
+}
+.left-boxes-box4 i:hover{
+  background-color:#BECBD2
+}
+
 
 .container-left-box{
 margin-top: 40px;
 margin-left: 15%;
+}
+.dark-blue .seytech{
+  background-color: #126282;
 }
 left container style only */
 a
