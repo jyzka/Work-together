@@ -20,7 +20,7 @@ nav{
  }
  i{
      padding: 20px;
-    color: white;
+    /* color: white; */
     margin: auto;
     
  }
@@ -53,11 +53,11 @@ padding:0px 8px 0px 8px;
 
 }
 /* other */
-/* .container-main {
+ /* .container-main {
    display: flex;
    
   
-} */
+}  */
 /* left container style only */
 /* img{
    width: 100px;
@@ -124,3 +124,78 @@ button, .like{
 /* button:hover{
    background-color: rgb(94, 125, 143);
 } */
+.middle {
+   margin: 30px;
+}
+.box2{
+   box-shadow: var(--box-shadow);
+}
+.b2head{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: solid 1px rgb(218, 214, 214);
+}
+
+.b2inhead{
+   display: flex;
+   align-items: center;
+}
+
+h2{
+   margin: 10px;
+
+}
+.circle{
+   height: 200px;
+   border-radius: 50%;
+}
+
+.btn{
+background-color: var(--main-color);
+}
+
+.b2main img{
+   height: 300px;
+}
+
+
+.box3{
+   box-shadow: var(--box-shadow);
+
+}
+
+ .b3head{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: solid 1px rgb(218, 214, 214);
+} 
+
+.b3inhead{
+   display: flex;
+   align-items: center;
+}
+
+.box4{
+   box-shadow: var(--box-shadow);
+}
+.b4head{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: solid 1px rgb(218, 214, 214);
+} 
+.b4inhead{
+   display: flex;
+   align-items: center;
+}
+
+
+
+
+
+.b4main img{
+   height: 400px;
+   width: 90%;
+}
