@@ -1,72 +1,78 @@
-:root{
-    --main-color: #00acee;
-    --bg-logo: #126282;
-    --bg-color:white;
-    --hover: rgb(94, 125, 143);
-    --box-shadow: 0px 1px 25px 1px rgba(0,0,0,0.3);
-    --border-radius: 4px 4px 4px 4px;
+:root {
+   --main-color: #00acee;
+   --bg-logo: #126282;
+   --bg-color: white;
+   --hover: rgb(94, 125, 143);
+   --box-shadow: 0px 1px 25px 1px rgba(0, 0, 0, 0.3);
+   --border-radius: 4px 4px 4px 4px;
 }
+
 /* nav styling only */
-nav{
-    display: flex;
-    justify-self: start;
-    background-color:  var(--main-color);
-    margin: 0px;
-    padding: 0px 100% 0px 0px;
-    
- }
- .b4-button-normal-logo{
-    background-color: var(--bg-logo);
- }
- i{
-     padding: 20px;
-    color: white;
-    margin: auto;
-    
- }
- /* .container{
+nav {
+   display: flex;
+   justify-self: start;
+   background-color: var(--main-color);
+   margin: 0px;
+   padding: 0px 100% 0px 0px;
+
+}
+
+.b4-button-normal-logo {
+   background-color: var(--bg-logo);
+}
+
+i {
+   padding: 20px;
+   color: white;
+   margin: auto;
+
+}
+
+/* .container{
    box-shadow: var(--box-shadow);
    border-radius: var(--border-radius);
  } */
- .sey{
+.sey {
    padding: 0 8px 0 0;
    margin: 0;
- }
- i:after{
-    color: black;
- }
- a:hover{
-    background-color: rgb(94, 125, 143);
- }
- .fa-house::before{
-    content: "\f015";
- }
- *, *::after, *::before {
-    box-sizing: inherit;
- }
- a{display: flex;
-align-items: center;
-text-decoration: none;
-color: white;
-font-size: 18px!important;
-padding:0px 8px 0px 8px;
+}
+
+i:after {
+   color: black;
+}
+
+a:hover {
+   background-color: rgb(94, 125, 143);
+}
+
+.fa-house::before {
+   content: "\f015";
+}
+
+*,
+*::after,
+*::before {
+   box-sizing: inherit;
+}
+
+a {
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: white;
+   font-size: 18px !important;
+   padding: 0px 8px 0px 8px;
 
 }
-{
-   display: flex;
-   flex-direction: row;
-   flex: 3 6 2;
-}
+
 /* other */
- /* .container-main {
+/* .container-main {
    display: flex;
    
   
-}  */
+} */
 /* left container style only */
-/* img{
-   width: 100px;
-}
+
 .left-boxes-box1{
    border: 0px black solid;
    width: 300px;
@@ -83,19 +89,19 @@ padding:0px 8px 0px 8px;
 .container-left-box{
    float: left;
   
-} */
+}
 /* ahsjgcaisc */
 /* middle container only */
-/* .middle-boxes-box1{
+.middle-boxes-box1{
    width: 600px;
    height: 150px;
    border: 1px black solid;
 box-shadow:  var(--box-shadow);
 border-radius:  var(--border-radius);
 border: 4px hidden #000000;
-} */
+}
 /* .inside-content-post { */
-   /* input{
+input{
    margin: 10px;
    padding: 10px;
    height: 20px;
@@ -133,81 +139,80 @@ button, .like{
    margin: 30px;
    color: black;
 }
-.box2{
+
+.box2 {
    box-shadow: var(--box-shadow);
 }
-.b2head{
+
+.b2head {
    display: flex;
    align-items: center;
    justify-content: space-between;
    border-bottom: solid 1px rgb(218, 214, 214);
 }
 
-.b2inhead{
+.b2inhead {
    display: flex;
    align-items: center;
 }
 
-h2{
+h2 {
    margin: 10px;
 
 }
-.circle{
+
+.circle {
    height: 200px;
    border-radius: 50%;
 }
 
-.btn{
-background-color: var(--main-color);
+.btn {
+   background-color: var(--main-color);
 }
 
-.b2main img{
+.b2main img {
    height: 300px;
 }
-
-
-.box3{
+.box3 {
    box-shadow: var(--box-shadow);
 
 }
 
- .b3head{
+.b3head {
    display: flex;
    align-items: center;
    justify-content: space-between;
    border-bottom: solid 1px rgb(218, 214, 214);
-} 
+}
 
-.b3inhead{
+.b3inhead {
    display: flex;
    align-items: center;
 }
 
-.box4{
+.box4 {
    box-shadow: var(--box-shadow);
 }
-.b4head{
+
+.b4head {
    display: flex;
    align-items: center;
    justify-content: space-between;
    border-bottom: solid 1px rgb(218, 214, 214);
-} 
-.b4inhead{
+}
+
+.b4inhead {
    display: flex;
    align-items: center;
 }
 
-
-
-
-
-.b4main img{
+.b4main img {
    height: 400px;
    width: 90%;
 }
 
-.btn{
-   color:aliceblue;
+.btn {
+   color: aliceblue;
 }
 /*/footer/*/
 .up{
